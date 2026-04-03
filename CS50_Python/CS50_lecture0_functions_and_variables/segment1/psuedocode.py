@@ -13,8 +13,8 @@ age = input("What is your age: ").strip()
 # What is your favorite color
 fav_color = input("What is your favorite color: ").strip().title()
 
-print(name)
-print(job_title)
-print(current_country)
-print(age)
-print(fav_color)
+print("Name: " + name)
+print("Job Title: " + job_title)
+print("Country: " + current_country)
+print("Age: " + age)
+print("Favorite Color: " + fav_color)
