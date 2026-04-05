@@ -15,4 +15,4 @@ total_tokens = float(input("Enter Total Tokens: ").strip())
 api_cost = total_tokens * price_per_token
 
 # Print cost of api usage
-print(f"Estimated Cost: ${api_cost:.2f}")
+print(f"Estimated Cost: ${api_cost:,.2f}")
