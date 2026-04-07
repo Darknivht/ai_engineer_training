@@ -23,4 +23,4 @@ tokens_divided = total_tokens_used / 1000
 final_cost = tokens_divided * token_price
 
 # print final_cost
-print(f"Final Price is: ${final_cost:,.3f}")
+print(f"Final Cost is: ${final_cost:,.3f}")
