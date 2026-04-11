@@ -8,7 +8,7 @@ Still inside main(), pass that input into clean_text(), save the returned value,
 # Define main func
 def main():
     # Ask user for system role
-    system_role = input("Enter Sytem Role: ")
+    system_role = input("Enter System Role: ")
     # Pass system role to the cleaner func
     cleaned_role = clean_text(system_role)
     print(f"Cleaned Role: {cleaned_role}")
