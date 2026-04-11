@@ -9,11 +9,15 @@ Call main() at the bottom of the file."""
 # Define get_token_count function
 def get_token_count():
     # Ask user for token count within get_token_count function
-    token_count = int("Enter Token Count: ").strip()
+    token_count = int(input("Enter Token Count: ").strip())
     return token_count
 
 # Define main function
 def main():
-    # 
-# Call get_token_count func inside main func
+    # Call get_token_count func inside main func and save its value to a variable
+    returned_token = get_token_count()
+    # Print the variable
+    print(f"Returned Token Count: {returned_token:,}")
+
 # Call main func
+main()
