@@ -33,7 +33,7 @@ def main():
     user_prompt = clean_prompt(user_prompt)
     cost = calculate_api_cost(token_count)
     # Print out result
-    print(f"{generate_payload(sys_prompt, user_prompt)}\nTokens: {token_count}\nEstimated Cost: ${cost:,.4f}")
+    print(f"{generate_payload(sys_prompt, user_prompt)}\nTokens: {token_count:,}\nEstimated Cost: ${cost:,.4f}")
 
 
 # Define clean_prompt func with one param
