@@ -1,0 +1,24 @@
+Error 1: PS C:\Users\Toshiba\Desktop\ai_engineer_training> & C:\Python313\python.exe c:/Users/Toshiba/Desktop/ai_engineer_training/CS50_Python/CS50_lecture0_functions_and_variables/run_2/segment1/greeter.py
+Could not find platform independent libraries <prefix>
+Traceback (most recent call last):
+  File "c:\Users\Toshiba\Desktop\ai_engineer_training\CS50_Python\CS50_lecture0_functions_and_variables\run_2\segment1\greeter.py", line 20, in <module>
+    name = inpu("What is your name?: ")
+           ^^^^
+NameError: name 'inpu' is not defined. Did you mean: 'input'?
+PS C:\Users\Toshiba\Desktop\ai_engineer_training> 
+
+Error 2: PS C:\Users\Toshiba\Desktop\ai_engineer_training> & C:\Python313\python.exe c:/Users/Toshiba/Desktop/ai_engineer_training/CS50_Python/CS50_lecture0_functions_and_variables/run_2/segment1/greeter.py
+Could not find platform independent libraries <prefix>
+  File "c:\Users\Toshiba\Desktop\ai_engineer_training\CS50_Python\CS50_lecture0_functions_and_variables\run_2\segment1\greeter.py", line 22
+    city = input("What is your city?: "
+                ^
+SyntaxError: '(' was never closed
+PS C:\Users\Toshiba\Desktop\ai_engineer_training>
+
+Error 3: PS C:\Users\Toshiba\Desktop\ai_engineer_training> & C:\Python313\python.exe c:/Users/Toshiba/Desktop/ai_engineer_training/CS50_Python/CS50_lecture0_functions_and_variables/run_2/segment1/greeter.py
+Could not find platform independent libraries <prefix>
+  File "c:\Users\Toshiba\Desktop\ai_engineer_training\CS50_Python\CS50_lecture0_functions_and_variables\run_2\segment1\greeter.py", line 25
+    print("Welcome"name,",you live in",city)
+          ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+PS C:\Users\Toshiba\Desktop\ai_engineer_training> 

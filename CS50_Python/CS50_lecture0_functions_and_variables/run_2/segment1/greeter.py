@@ -17,7 +17,7 @@ The final working greeter.py
 A text file bugs.txt with your 3 bugs, the error messages, and your fixes"""
 
 # Step 1: Ask the user for their first name
-name = inpu("What is your name?: ")
+name = input("What is your name?: ")
 # Step 2: Ask the user for their city
 city = input("What is your city?: ")
 
