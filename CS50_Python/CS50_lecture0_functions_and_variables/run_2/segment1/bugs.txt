@@ -1,24 +1,20 @@
-Error 1: PS C:\Users\Toshiba\Desktop\ai_engineer_training> & C:\Python313\python.exe c:/Users/Toshiba/Desktop/ai_engineer_training/CS50_Python/CS50_lecture0_functions_and_variables/run_2/segment1/greeter.py
-Could not find platform independent libraries <prefix>
-Traceback (most recent call last):
-  File "c:\Users\Toshiba\Desktop\ai_engineer_training\CS50_Python\CS50_lecture0_functions_and_variables\run_2\segment1\greeter.py", line 20, in <module>
-    name = inpu("What is your name?: ")
-           ^^^^
-NameError: name 'inpu' is not defined. Did you mean: 'input'?
-PS C:\Users\Toshiba\Desktop\ai_engineer_training> 
+BUG 1: Typo in function name
+What I did: Changed `input` to `inpu` on line 20
+Error type: NameError
+What it said: "name 'inpu' is not defined. Did you mean: 'input'?"
+What I learned: Python doesn't auto-correct typos. Function names must be exact.
+How I fixed it: Changed `inpu` back to `input`
 
-Error 2: PS C:\Users\Toshiba\Desktop\ai_engineer_training> & C:\Python313\python.exe c:/Users/Toshiba/Desktop/ai_engineer_training/CS50_Python/CS50_lecture0_functions_and_variables/run_2/segment1/greeter.py
-Could not find platform independent libraries <prefix>
-  File "c:\Users\Toshiba\Desktop\ai_engineer_training\CS50_Python\CS50_lecture0_functions_and_variables\run_2\segment1\greeter.py", line 22
-    city = input("What is your city?: "
-                ^
-SyntaxError: '(' was never closed
-PS C:\Users\Toshiba\Desktop\ai_engineer_training>
+BUG 2: Missing closing parenthesis
+What I did: Removed the `)` from `input("What is your city?: ")`
+Error type: SyntaxError
+What it said: "'(' was never closed"
+What I learned: Every opening parenthesis needs a closing one.
+How I fixed it: Added `)` at the end of the line
 
-Error 3: PS C:\Users\Toshiba\Desktop\ai_engineer_training> & C:\Python313\python.exe c:/Users/Toshiba/Desktop/ai_engineer_training/CS50_Python/CS50_lecture0_functions_and_variables/run_2/segment1/greeter.py
-Could not find platform independent libraries <prefix>
-  File "c:\Users\Toshiba\Desktop\ai_engineer_training\CS50_Python\CS50_lecture0_functions_and_variables\run_2\segment1\greeter.py", line 25
-    print("Welcome"name,",you live in",city)
-          ^^^^^^^^^^^^^
-SyntaxError: invalid syntax. Perhaps you forgot a comma?
-PS C:\Users\Toshiba\Desktop\ai_engineer_training> 
+BUG 3: Missing comma in print
+What I did: Forgot comma between "Welcome" and name variable
+Error type: SyntaxError
+What it said: "invalid syntax. Perhaps you forgot a comma?"
+What I learned: Python's error messages are actually helpful!
+How I fixed it: Added comma between the two arguments

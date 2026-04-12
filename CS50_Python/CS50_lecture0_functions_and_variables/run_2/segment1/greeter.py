@@ -22,4 +22,4 @@ name = input("What is your name?: ")
 city = input("What is your city?: ")
 
 # Step 3: Print a greeting that includes both
-print("Welcome",name,",you live in",city)
+print("Welcome",name + ", you live in",city)
