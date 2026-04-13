@@ -12,3 +12,6 @@ print(full_name)
 
 # print Clean user input
 print(full_name.strip().title())
+
+# .strip() removes spaces at beginning and end of string
+# .title() capitalizes every first letter of a string separated by space
