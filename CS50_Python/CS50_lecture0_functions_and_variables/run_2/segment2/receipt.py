@@ -26,7 +26,7 @@ item_price = input("Enter Item Price: ").strip()
 
 WIDTH = 32
 
-# Print receipt
+# Print Receipt
 print("=" * WIDTH)
 print(f"{store_name.center(WIDTH)}")
 print("=" * WIDTH)
